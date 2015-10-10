@@ -173,7 +173,6 @@ typedef void (^TimeObserverBlock)(CMTime time);
         [self.delegate queuePlayerDidCompletePlaying:self];
     }
 
-    [self next];
 }
 
 -(void)resume {
